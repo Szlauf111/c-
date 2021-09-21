@@ -1,0 +1,136 @@
+#include<iostream>
+
+using namespace std;
+
+
+void dodawanie()
+{
+	int a, b;
+	cout << "podaj a i b: " << endl;
+	cin >> a >> b;
+	cout << "dodawanie " << a + b << endl;
+}
+
+void odejmowanie()
+{
+	int a, b;
+	cout << "podaj a i b: "<< endl;
+	cin >> a >> b;
+	cout <<"odejmowanie "<< a - b << endl;
+}
+
+void mnozenie()
+{
+	int a, b;
+	cout << "podaj a i b: " << endl;
+	cin >> a >> b;
+	cout <<"mnozenie "<< a * b << endl;
+}
+
+void dzielenie()
+{
+	int a, b;
+	cout << "podaj a i b: " << endl;
+	cin >> a >> b;
+	cout <<"dzielenie "<< a / b << endl;
+}
+
+void pole_kwadratu()
+{
+	int a;
+	cout << "podaj a : " << endl;
+	cin >> a ;
+	cout <<"pole kwadratu "<< a * a << endl;
+}
+
+void pole_prostokatu()
+{
+	int a, b;
+	cout << "podaj a i b: " << endl;
+	cin >> a >> b;
+	cout <<"pole prostokata "<< a * b << endl;
+}
+
+void pole_trojkatu()
+{
+	int a, h;
+	cout << "podaj a i h: " << endl;
+	cin >> a >> h;
+	cout <<"pole trojkata "<< (a * h) / 2 << endl;
+}
+
+void pole_trapezu()
+{
+	int a, b, h;
+	cout << "podaj a, b i h: " << endl;
+	cin >> a >> b >> h;
+	cout <<"pole trapezu rownoramiennego "<< ((a + b) * h) / 2 << endl;
+}
+
+void pole_rombu()
+{
+	int e, f;
+	cout << "podaj e i f: " << endl;
+	cin >> e >> f;
+	cout <<"pole rombu "<< (e * f) / 2 << endl;
+}
+
+void obwod_kwadratu()
+{
+	int a;
+	cout << "podaj a: " << endl;
+	cin >> a;
+	cout <<"obwod kwadratu "<< a * 4 << endl;
+}
+
+void obwod_prostokata()
+{
+	int a, b;
+	cout << "podaj a i b: " << endl;
+	cin >> a >> b;
+	cout << "obwod prostokata " << (a * 2)+(b*2) << endl;
+}
+
+void obwod_trojkata()
+{
+	int a, b, c;
+	cout << "podaj a, b i c: " << endl;
+	cin >> a >> b >> c;
+	cout << "obwod trojkata " << a + b + c << endl;
+}
+
+void obwod_rombu()
+{
+	int a;
+	cout << "podaj a: " << endl;
+	cin >> a;
+	cout << "obwod rombu " << a * 4 << endl;
+}
+
+void obwod_trapezu()
+{
+	int a, b, h;
+	cout << "podaj a, b i h: "<< endl;
+	cin >> a >> b >> h;
+	cout << "obwod trapezu rownoramiennego " <<   endl;
+}
+
+int main()
+{
+	dodawanie();
+	odejmowanie();
+	mnozenie();
+	dzielenie();
+	pole_kwadratu();
+	pole_prostokatu();
+	pole_trojkatu();
+	pole_trapezu();
+	pole_rombu();
+	obwod_kwadratu();
+	obwod_prostokata();
+	obwod_trojkata();
+	obwod_rombu();
+	//obwod_trapezu();
+
+
+}
