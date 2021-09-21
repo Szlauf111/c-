@@ -109,10 +109,11 @@ void obwod_rombu()
 
 void obwod_trapezu()
 {
-	int a, b, h;
+	int a, b, h, c;
 	cout << "podaj a, b i h: "<< endl;
 	cin >> a >> b >> h;
-	cout << "obwod trapezu rownoramiennego " <<   endl;
+	((a - b) / 2)* ((a - b) / 2) + (h * h) = c;
+	cout << "obwod trapezu rownoramiennego " << a + b + (c *2) <<   endl;
 }
 
 int main()
@@ -130,7 +131,7 @@ int main()
 	obwod_prostokata();
 	obwod_trojkata();
 	obwod_rombu();
-	//obwod_trapezu();
+	obwod_trapezu();
 
 
 }
