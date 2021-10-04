@@ -14,9 +14,9 @@ void dodawanie()
 void odejmowanie()
 {
 	int a, b;
-	cout << "podaj a i b: "<< endl;
+	cout << "podaj a i b: " << endl;
 	cin >> a >> b;
-	cout <<"odejmowanie "<< a - b << endl;
+	cout << "odejmowanie " << a - b << endl;
 }
 
 void mnozenie()
@@ -24,7 +24,7 @@ void mnozenie()
 	int a, b;
 	cout << "podaj a i b: " << endl;
 	cin >> a >> b;
-	cout <<"mnozenie "<< a * b << endl;
+	cout << "mnozenie " << a * b << endl;
 }
 
 void dzielenie()
@@ -32,15 +32,15 @@ void dzielenie()
 	int a, b;
 	cout << "podaj a i b: " << endl;
 	cin >> a >> b;
-	cout <<"dzielenie "<< a / b << endl;
+	cout << "dzielenie " << a / b << endl;
 }
 
 void pole_kwadratu()
 {
 	int a;
 	cout << "podaj a : " << endl;
-	cin >> a ;
-	cout <<"pole kwadratu "<< a * a << endl;
+	cin >> a;
+	cout << "pole kwadratu " << a * a << endl;
 }
 
 void pole_prostokatu()
@@ -48,7 +48,7 @@ void pole_prostokatu()
 	int a, b;
 	cout << "podaj a i b: " << endl;
 	cin >> a >> b;
-	cout <<"pole prostokata "<< a * b << endl;
+	cout << "pole prostokata " << a * b << endl;
 }
 
 void pole_trojkatu()
@@ -56,7 +56,7 @@ void pole_trojkatu()
 	int a, h;
 	cout << "podaj a i h: " << endl;
 	cin >> a >> h;
-	cout <<"pole trojkata "<< (a * h) / 2 << endl;
+	cout << "pole trojkata " << (a * h) / 2 << endl;
 }
 
 void pole_trapezu()
@@ -64,7 +64,7 @@ void pole_trapezu()
 	int a, b, h;
 	cout << "podaj a, b i h: " << endl;
 	cin >> a >> b >> h;
-	cout <<"pole trapezu rownoramiennego "<< ((a + b) * h) / 2 << endl;
+	cout << "pole trapezu rownoramiennego " << ((a + b) * h) / 2 << endl;
 }
 
 void pole_rombu()
@@ -72,7 +72,7 @@ void pole_rombu()
 	int e, f;
 	cout << "podaj e i f: " << endl;
 	cin >> e >> f;
-	cout <<"pole rombu "<< (e * f) / 2 << endl;
+	cout << "pole rombu " << (e * f) / 2 << endl;
 }
 
 void obwod_kwadratu()
@@ -80,7 +80,7 @@ void obwod_kwadratu()
 	int a;
 	cout << "podaj a: " << endl;
 	cin >> a;
-	cout <<"obwod kwadratu "<< a * 4 << endl;
+	cout << "obwod kwadratu " << a * 4 << endl;
 }
 
 void obwod_prostokata()
@@ -88,7 +88,7 @@ void obwod_prostokata()
 	int a, b;
 	cout << "podaj a i b: " << endl;
 	cin >> a >> b;
-	cout << "obwod prostokata " << (a * 2)+(b*2) << endl;
+	cout << "obwod prostokata " << (a * 2) + (b * 2) << endl;
 }
 
 void obwod_trojkata()
@@ -107,15 +107,16 @@ void obwod_rombu()
 	cout << "obwod rombu " << a * 4 << endl;
 }
 
+/* 
 void obwod_trapezu()
 {
 	int a, b, h, c;
-	cout << "podaj a, b i h: "<< endl;
+	cout << "podaj a, b i h: " << endl;
 	cin >> a >> b >> h;
 	((a - b) / 2)* ((a - b) / 2) + (h * h) = c;
-	cout << "obwod trapezu rownoramiennego " << a + b + (c *2) <<   endl;
+	cout << "obwod trapezu rownoramiennego " << a + b + (c * 2) << endl;
 }
-
+*/
 int main()
 {
 	dodawanie();
@@ -131,7 +132,7 @@ int main()
 	obwod_prostokata();
 	obwod_trojkata();
 	obwod_rombu();
-	obwod_trapezu();
+	//obwod_trapezu();
 
 
 }
