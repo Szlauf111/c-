@@ -1,4 +1,5 @@
 #include<iostream>
+#include<math.h>
 
 using namespace std;
 
@@ -107,16 +108,16 @@ void obwod_rombu()
 	cout << "obwod rombu " << a * 4 << endl;
 }
 
-/* 
+
 void obwod_trapezu()
 {
-	int a, b, h, c;
+	double a, b, h, c;
 	cout << "podaj a, b i h: " << endl;
 	cin >> a >> b >> h;
-	((a - b) / 2)* ((a - b) / 2) + (h * h) = c;
-	cout << "obwod trapezu rownoramiennego " << a + b + (c * 2) << endl;
+	c = sqrt( ((b - a) / 2)* ((b - a) / 2) + (h * h) );
+	cout << "obwod trapezu rownoramiennego " << a + b + (2 * c)<< endl;
 }
-*/
+
 int main()
 {
 	dodawanie();
@@ -132,7 +133,7 @@ int main()
 	obwod_prostokata();
 	obwod_trojkata();
 	obwod_rombu();
-	//obwod_trapezu();
+	obwod_trapezu();
 
 
 }
